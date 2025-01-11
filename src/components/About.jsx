@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/Image2Cropped.jpg";
+import aboutImg from "../assets/Image2cropped.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
