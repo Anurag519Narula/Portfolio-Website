@@ -44,7 +44,7 @@ const LeetCodeHeatmap = ({ username }) => {
         transition={{ duration: 1.5 }}
         className="my-20 text-center text-4xl"
       >
-        LeetCode Contributions Heatmap
+        LeetCode Contributions
       </motion.h2>
       <motion.div
         initial={{ opacity: 0, y: -50 }}
