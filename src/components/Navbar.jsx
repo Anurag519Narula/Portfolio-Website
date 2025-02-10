@@ -10,7 +10,7 @@ const Navbar = () => {
         <FaFilePdf
           onClick={() => {
             window.open(
-              "https://drive.google.com/file/d/1UaQ5EW9ve_2TmPHtkfTNukBmdE_UrUsS/view?usp=sharing"
+              "https://drive.google.com/file/d/1gGflo61D4a6yJUyA6Nq_yD-L2ASu2gq0/view?usp=sharing"
             ),
               "_blank";
           }}
