@@ -19,7 +19,7 @@ const App = () => {
         <About />
         <Technologies />
         <Experience />
-        <LeetCodeHeatmap username="anurag519narula" />
+        {/* <LeetCodeHeatmap username="anurag519narula" /> */}
         <Projects />
         <Contact />
       </div>
