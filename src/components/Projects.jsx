@@ -1,4 +1,3 @@
-import React from "react";
 import { PROJECTS } from "../constants";
 import { motion } from "framer-motion";
 
@@ -18,9 +17,9 @@ const Projects = () => {
           <div
             key={index}
             className="mb-8 flex flex-wrap lg:justify-center"
-            style={{ cursor: "pointer" }}
+            style={{ cursor: project.link ? "pointer" : "default" }}
             onClick={() => {
-              window.open(project.link), "_blank";
+              if (project.link) window.open(project.link, "_blank");
             }}
           >
             <motion.div

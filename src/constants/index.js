@@ -1,29 +1,44 @@
 import BookVerse from "../assets/projects/BookVerse.jpg";
 import Portfolio from "../assets/projects/Portfolio.jpg";
 import SpendSense from "../assets/projects/SpendSense.jpg";
-import CarRentalSystem from "../assets/projects/CarRentalSystem.webp";
+import CarVerse from "../assets/projects/CarVerse.png";
 
-export const HERO_CONTENT = `I am a dedicated Full Stack Web Developer with hands-on experience in building responsive and feature-rich web applications. Proficient in modern front-end frameworks like React.js and robust backend technologies, I specialize in developing user-centric applications that offer seamless performance.My expertise includes crafting scalable solutions, integrating APIs, and ensuring intuitive user experiences.`;
+export const HERO_CONTENT = `I am a Software Engineer at FNZ with a passion for building scalable, full-stack web applications and data-driven systems. With hands-on experience across React, Node.js, FastAPI, PostgreSQL, and AWS, I thrive on solving complex engineering problems — from AI-powered product features to high-volume regulatory data pipelines. Currently pursuing B.Tech in Computer Science at Punjab Engineering College, Chandigarh.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a Software Engineer at FNZ, where I build data ingestion and transformation pipelines for APRA regulatory reporting using Microsoft Fabric. Prior to this, I interned at MakeMyTrip, where I worked on improving authentication flows at scale and expanded hotel listings for the US market. I hold a B.Tech in Computer Science and Engineering from Punjab Engineering College, Chandigarh. Beyond engineering, I'm a big football and Formula One fan — there's something about the strategy, precision, and relentless pursuit of marginal gains in F1 that honestly mirrors how I think about software. I play sports regularly and find that staying active keeps me sharp. I'm also genuinely excited by what's happening in AI and emerging tech right now — I like keeping up with the latest research, tools, and products shaping the industry.`;
 
 export const EXPERIENCES = [
+  {
+    year: "June 2025 - Present",
+    role: "Junior Software Engineer",
+    company: "FNZ",
+    description: `Building data ingestion and transformation pipelines for APRA regulatory reporting using Microsoft Fabric, processing 10,000+ records daily and enabling fully auditable financial reporting workflows.`,
+    technologies: ["Microsoft Fabric", "Python", "SQL", "Azure", "Data Pipelines"],
+  },
   {
     year: "Jan 2024 - June 2024",
     role: "Software Development Intern",
     company: "MakeMyTrip",
-    description: `Contributed to the development of web applications using cutting edge technology. Expanded Hotels LOB on MMT's US Website. Implemented various features such as Error Boundary, Multi Factor Authentication for users. Worked closely with product managers to prioritize features and enhancements.`,
+    description: `Engineered a centralized error-handling system for PWA and desktop platforms, improving application stability and reducing user drop-off by 15%. Integrated hotel listing support for the US website, improving booking accessibility for international users. Improved multi-factor authentication flows impacting 10M+ users, strengthening account security and reducing unauthorized access.`,
     technologies: ["ReactJS", "React-Redux", "Saga Middleware", "Github"],
   },
 ];
 
 export const PROJECTS = [
   {
+    title: "CarVerse",
+    image: CarVerse,
+    link: "",
+    description:
+      "Built a full-stack vehicle maintenance platform generating AI-based 2-year service timelines and cost estimates. Designed a modular architecture with a FastAPI AI microservice powered by AWS Bedrock Nova. Integrated NHTSA, Mapbox, Google Places, and Yelp APIs for nearby repair shop discovery.",
+    technologies: ["React", "Node.js", "PostgreSQL", "FastAPI", "AWS S3", "AWS Bedrock"],
+  },
+  {
     title: "SpendSense",
     image: SpendSense,
     link: "https://github.com/Anurag519Narula/SpendSense",
     description:
-      "Developed an expense tracker app using the MERN stack for seamless transaction management with real-time updates.",
+      "Developed a MERN stack expense tracker with RESTful APIs, dynamic filtering by date/category/amount, and real-time spending summaries across transaction history.",
     technologies: ["React JS", "Node.js", "MongoDB", "Express JS"],
   },
   {
@@ -41,14 +56,6 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React JS", "Tailwind CSS"],
-  },
-  {
-    title: "Car Rental System",
-    image: CarRentalSystem,
-    link: "https://github.com/Anurag519Narula/Car-Rental-System",
-    description:
-      " Developed an OOPs based car rental project enhancing efficiency, user experience to streamline the rental process.",
-    technologies: ["CPP"],
   },
 ];
 
